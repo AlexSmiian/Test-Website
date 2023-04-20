@@ -2,7 +2,7 @@ import {itemSelection} from './itemSelection'
 import {timer} from './timer'
 import { showData } from './showData'
 
-let currentStep = 0
+let currentStep = 14
 
 
 // Step distance

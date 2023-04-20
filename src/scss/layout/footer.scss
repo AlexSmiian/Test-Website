@@ -113,5 +113,53 @@
   .footer{
 
 		height: 335px;
+    .footer__container{
+      .footer__top__text{
+        margin: 15px auto;
+        width: 50%;
+      }
+      .footer__card__text{
+        width: 50%;
+      margin: 15px auto;
+      }
+    }
+    
+	}
+}
+
+
+@media (min-width: 1025px) and (max-width: 1200px) {
+  .footer{
+
+		height: 335px;
+    .footer__container{
+      .footer__top__text{
+        margin: 15px auto;
+        width: 50%;
+      }
+      .footer__card__text{
+        width: 50%;
+      margin: 15px auto;
+      }
+    }
+    
+	}
+}
+
+@media (min-width: 1201px) {
+  .footer{
+
+		height: 235px;
+    .footer__container{
+      .footer__top__text{
+        margin: 15px auto;
+        width: 50%;
+      }
+      .footer__card__text{
+        width: 50%;
+      margin: 15px auto;
+      }
+    }
+    
 	}
 }
