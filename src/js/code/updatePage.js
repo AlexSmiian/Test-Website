@@ -5,11 +5,10 @@ import { showData } from './showData'
 let currentStep = 0
 
 
-// Растояние шага
+// Step distance
 let progressStep = 100 / 14
 
-// const pageForm = document.querySelector(`#page${currentStep+1}`)
-// 	const btnStep = pageForm.querySelector('[data-btn__step]')
+
 
 export function updatePage(){
 
@@ -20,7 +19,7 @@ export function updatePage(){
 	const btnTel = document.querySelector('[ data-btn--timer]')
 
 	const steps = document.querySelectorAll('.step')
-		
+		// The first page is displayed when the form is opened
 	if(currentStep === 0){
 		
 		steps[currentStep].style.display = 'flex'
@@ -75,10 +74,8 @@ export function updatePage(){
 		})
 
 	}
-	
+		// Manipulations with element selection
 	itemSelection(currentStep)
-	
-
 	
 }
 

@@ -14,7 +14,7 @@ export function itemSelection(count) {
 	
 
 	
-	
+	// Input iteration and binding to label, as well as button activation and highlighting.
 	if(count < 5 || count == 7 || count > 8 &&  count < 11){
 		inputs.forEach(item=>{
 			item.addEventListener('click',()=>{
@@ -44,7 +44,7 @@ export function itemSelection(count) {
 		})
 		
 	}else{
-		
+		// Selecting an element and activating the button
 		items.forEach(item=>{
 			item.addEventListener('click',()=>{
 	
@@ -66,7 +66,7 @@ export function itemSelection(count) {
 		})
 	}
 
-// Toggling the checked flag on the input, as well as highlighting the background of the selected input.
+
 
 
 

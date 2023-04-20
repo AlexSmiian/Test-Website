@@ -1,5 +1,5 @@
 const url = 'https://swapi.dev/api/people/1/'
-
+// Request to the server
  async function getData (){
 	try {
 		const response = await fetch(url);
@@ -15,7 +15,7 @@ const url = 'https://swapi.dev/api/people/1/'
 getData()
 
 
-
+// Displaying data on the screen
 export function showData (data){
     console.log(data)
 	const dataContainer	= document.querySelector("[data--content]")

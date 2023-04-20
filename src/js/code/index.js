@@ -12,7 +12,7 @@
 
 	burgerOpen.addEventListener('click',openBurgerMenu,false)
 	burgerClose.addEventListener('click',closeBurgerMenu,false)
-
+	// open form
 	openFormBtn.forEach(el=>el.addEventListener('click',openForm,false))
 
 

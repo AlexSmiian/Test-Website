@@ -37,27 +37,3 @@ let seconds = 60
 
 		}, 1000);
 }
-
-
-/*
- seconds < 10 ? get('[data-seconds]').innerHTML = `0${seconds}` : get('[data-seconds]').innerHTML = seconds;
-    seconds++;
-
-    if(seconds === 60){
-        seconds = 0;
-        minutes < 10 ? get('[data-min]').innerHTML = `0${minutes}` :get('[data-min]').innerHTML = minutes;
-
-        minutes++
-
-    }
-
-    if(minutes  === 60){
-        minutes = 0;
-        hour < 10 ? get('[data-hours]').innerHTML = `0${hour}` :get('[data-hours]').innerHTML = hour;
-
-        hour ++
-    }
-
-
-
-*/
