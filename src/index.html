@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="ru">
+  @@include('html/head.html', {
+    'title': 'Test-Website'
+  })
+  <body>
+    <div class="wrapper">
+      @@include('html/header.html', {})
+      @@include('html/pages/formStep.html', {})
+      
+      <div class="wrapper__container">
+        
+        <main class="page">
+          @@include('html/pages/homePage.html', {})
+        </main>
+        @@include('html/footer.html', {})
+      </div>
+      @@include('html/script.html', {})
+      </div>
+     
+  </body>
+</html> 
