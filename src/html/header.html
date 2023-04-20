@@ -1,15 +1,22 @@
 <!DOCTYPE html>
 <header class="header">
   
- <button class="header_burger" data-open_burger>
-  <span></span>
-    
- </button>
- <div class="header__content">
-  <div class="header__logo">
-    <img class="logo" src="./images/rain_bk3.png" alt="">
-  </div>
-  <h1 class="iq_title--h1 iq_title--h1__header">тест на определение IQ</h1>
+  <button class="header_burger" data-open_burger>
+    <span></span>
+      
+  </button>
+  <div class="header__content">
+      <div class="header__logo">
+        <img class="logo" src="./images/rain_bk3.png" alt="">
+      </div>
+      <h1 class="iq_title--h1 iq_title--h1__header">тест на определение IQ</h1>
+      <nav class="header__nav">
+        <ul class="nav__list">
+          <li class="list__item"><a href="#">Главная</a></li>
+          <li class="list__item"><a href="#">Информация о тесте</a></li>
+          <li class="list__item"><a href="#">Пройти тест</a></li>
+        </ul> 
+      </nav>
  </div>
  <div class="burger__content">
         <button class="button__burger" data-close_burger>
@@ -20,9 +27,9 @@
         </button>
         <nav class="burger_menu">
           <ul class="menu__list">
-            <li class="list__item"><a href="#">Главная</a></li>
+            <li class="list__item"><a href="#" class="btn__main">Главная</a></li>
             <li class="list__item"><a href="#">Информация о тесте</a></li>
-            <li class="list__item"><a href="#">пройти тест</a></li>
+            <li class="list__item"><a href="#" data-btn_test>Пройти тест</a></li>
           </ul> 
         </nav>
  </div>

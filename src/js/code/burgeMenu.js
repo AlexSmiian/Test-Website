@@ -8,6 +8,8 @@ export function openBurgerMenu (){
 
 // Close menu
 export function closeBurgerMenu(){
+	
 	const openBurger = document.querySelector('.burger__content')
+
 	openBurger.style.display = 'none';
 }
