@@ -335,13 +335,12 @@
 		padding: 0 20px;
 
 		.step__question {
-			width: 50%;
-
+			min-width: 350px;
 			margin: 0 auto;
 		}
 
 		.question__square {
-			width: 80%;
+			width: 375px;
 
 			display: flex;
 			margin: 0 auto;
@@ -381,7 +380,7 @@
 		}
 
 		.question__square {
-			width: 62%;
+			width: 375px;
 			margin: 0 auto;
 		}
 
@@ -414,7 +413,7 @@
 			}
 		}
 		.question__square {
-			width: 40%;
+			width: 375px;
 
 			display: flex;
 			margin: 0 auto;
@@ -449,7 +448,7 @@
 			}
 		}
 		.question__square {
-			width: 30%;
+			width: 375px;
 
 			display: flex;
 			margin: 0 auto;

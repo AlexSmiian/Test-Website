@@ -175,6 +175,8 @@
 
 			margin-bottom: 38px;
 
+
+			margin: 20px auto;
 			.text--bold {
 				text-transform: uppercase;
 				font-weight: 700;
@@ -184,7 +186,11 @@
 				}
 			}
 		}
-
+		.brain__img{
+			display: flex;
+    justify-content: center;
+    margin-bottom: 37px;
+		}
 		.brain__btn {
 			position: relative;
 			top: -50px;
@@ -256,6 +262,11 @@
 				margin-top: 15px;
 				text-align: center;
 			}
+			.brain__img{
+				img{
+					width: 300px;
+				}
+				}
 		}
 	}
 
@@ -297,10 +308,10 @@
 			justify-content: center;
 			.mark__left{
 				top: 16%;
-				left: 29%;
+				left: 32%;
 			}
 			.mark__right{
-				right: 29%;
+				right: 32%;
 				bottom: 16%;
 			}
 			}
@@ -313,11 +324,13 @@
 					font-size: 24px;
 					margin-top: 15px;
 					text-align: center;
-					img{
-						margin: 15px auto;
-						width: 50%;
-					}
+					
 				}
+				.brain__img{
+					img{
+						width: 300px;
+					}
+					}
 			}
 		}
 }
@@ -357,10 +370,10 @@
 			justify-content: center;
 			.mark__left{
 				top: 16%;
-				left: 29%;
+				left: 34%;
 			}
 			.mark__right{
-				right: 29%;
+				right: 34%;
 				bottom: 16%;
 			}
 			}
@@ -373,11 +386,13 @@
 					font-size: 24px;
 					margin-top: 15px;
 					text-align: center;
-					img{
-						margin: 15px auto;
-						width: 50%;
-					}
+				
 				}
+				.brain__img{
+					img{
+						width: 300px;
+					}
+					}
 			}
 		}
 }
@@ -417,10 +432,10 @@
 			justify-content: center;
 			.mark__left{
 				top: 16%;
-				left: 29%;
+				left: 36%;
 			}
 			.mark__right{
-				right: 29%;
+				right: 35%;
 				bottom: 16%;
 			}
 			}
@@ -433,11 +448,14 @@
 					font-size: 24px;
 					margin-top: 15px;
 					text-align: center;
-					img{
-						margin: 15px auto;
-						width: 50%;
-					}
+				
 				}
+
+				.brain__img{
+					img{
+						width: 400px;
+					}
+					}
 			}
 		}
 }

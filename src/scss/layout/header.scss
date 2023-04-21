@@ -122,33 +122,11 @@
 
 @media (min-width: 481px) and (max-width: 768px) {
   .header {
-    .header_burger {
-
-      display: none;
-
-    }
+  
 
     .header__content {
       .header__nav {
-       display: flex;
-        align-items: center;
-          width: 50%;
-        margin-left: 10px;
-          .nav__list {
-            width: 100%;
-            display: flex;
-            
-            li {
-              margin-right: 10px;
-              a {
-                color: $redColor;
-              }
-              a:hover{
-                color: $yellowColor;
-              }
-            }
-          }
-        
+       display: none;
       }
     }
 
